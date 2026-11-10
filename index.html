@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="uz">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lumen Roof</title>
+    <meta name="description" content="Elektr tariflari, ob-havo injiqliklari va fasllarni unuting. Aqlli kontrollerimiz xonadoningizga yetti yil bepul elektrni kafolatlaydi." />
+    <meta property="og:title" content="Lumen Roof" />
+    <meta property="og:description" content="Elektr tariflari, ob-havo injiqliklari va fasllarni unuting. Aqlli kontrollerimiz xonadoningizga yetti yil bepul elektrni kafolatlaydi." />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+    <script>
+      if (
+        !document.querySelector('script[src*="@vite/client"]') &&
+        document.querySelector('script[src="/src/main.tsx"]')
+      ) {
+        var css = document.createElement('link');
+        css.rel = 'stylesheet';
+        css.href = './docs/assets/app.css';
+        document.head.appendChild(css);
+        var js = document.createElement('script');
+        js.type = 'module';
+        js.src = './docs/assets/app.js';
+        document.body.appendChild(js);
+      }
+    </script>
+  </body>
+</html>
+

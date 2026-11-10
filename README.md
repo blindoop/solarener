@@ -1,11 +1,37 @@
-<div align="center">
+# Lumen Roof — O‘zbek oilalari uchun quyosh panellari
 
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+Ushbu repozitoriy **Lumen Roof** veb-saytining to‘liq manba kodi (`src/`) hamda GitHub Pages uchun tayyor yig‘ilgan frontend versiyasini (`docs/`) o‘z ichiga oladi.
 
-  <h1>Built with AI Studio</h2>
+---
 
-  <p>The fastest path from prompt to production with Gemini.</p>
+## 🌐 Make the Live Website Visible on GitHub (GitHub Pages)
 
-  <a href="https://aistudio.google.com/apps">Start building</a>
+To view the **live interactive frontend website** instead of the source code files on GitHub:
 
-</div>
+### Option A — Automatic via `/docs` or `/ (root)` Branch (Fastest, Zero Build Wait)
+1. Open your repository on **GitHub**.
+2. Click **Settings** (top bar) → **Pages** (left sidebar).
+3. Under **Build and deployment** → **Source**, select **Deploy from a branch**.
+4. Choose branch **`main`** (or `master`) and folder **`/docs`** (or `/ (root)`), then click **Save**.
+5. Your live website will be published at:
+   `https://<your-github-username>.github.io/<repository-name>/`
+
+### Option B — Automatic via GitHub Actions
+1. Open **Settings** → **Pages** in your GitHub repository.
+2. Under **Build and deployment** → **Source**, select **GitHub Actions**.
+3. The included workflow (`.github/workflows/deploy.yml`) will automatically compile the React/TypeScript app and publish the live website.
+
+---
+
+## 🛠 Local Development
+
+```bash
+npm install
+npm run dev
+```
+
+To rebuild the production static files (`dist/` and `docs/`):
+
+```bash
+npm run build
+```

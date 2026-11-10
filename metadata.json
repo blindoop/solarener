@@ -1,0 +1,8 @@
+{
+  "name": "Remix Lumen Roof — O‘zbek oilalari uchun quyosh panellari",
+  "description": "Elektr tariflari, ob-havo injiqliklari va fasllarni unuting. Aqlli kontrollerimiz xonadoningizga yetti yil bepul elektrni kafolatlaydi.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
